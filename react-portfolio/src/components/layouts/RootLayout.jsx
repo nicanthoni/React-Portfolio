@@ -9,7 +9,7 @@ export default function RootLayout() {
     <div className="root-layout">
       <header>
         <nav>
-          <h1>Nic D.</h1>
+          <h1>Nic</h1>
           <NavLink to="About">About</NavLink>
           <NavLink to="Contact">Contact</NavLink>
           <NavLink to="Portfolio">Portfolio</NavLink>
