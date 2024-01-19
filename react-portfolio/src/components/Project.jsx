@@ -5,12 +5,11 @@ import { useState } from "react";
 export default function Project(props) {
   return (
     <div className="Projects">
-      <button>Project 1</button>
-      <button>Project 2</button>
-      <button>Project 3</button>
-      <button>Project 4</button>
-      <button>Project 5</button>
-      <button>Project 6</button>
+      {/* {props.projects.map((project) => (
+        <button className="project-btn" key={project.id}>
+          {projects.title}
+        </button>
+      ))} */}
     </div>
   );
 }

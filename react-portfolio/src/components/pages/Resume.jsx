@@ -1,12 +1,39 @@
-export default function Resume() {
+import Resume from "../../assets/Resume.pdf";
+
+export default function ResumeComponent() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = Resume;
+    link.download = "NicDiazResume.pdf";
+    link.click();
+  };
+
   return (
     <div className="resume">
       <h2>Resume</h2>
-      <p>WHEN I am presented with the Resume section</p>
-      <p>
-        THEN I see a link to a downloadable resume and a list of the developer’s
-        proficiencies
-      </p>
+      <button className="download-btn" onClick={handleDownload}>
+        Download Resume
+      </button>
+      <h3>Front-end Proficiencies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>JQuery</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+        <li>Tailwind</li>
+        <li>Responsive Design</li>
+      </ul>
+      <h3>Back-end Proficiencies</h3>
+      <ul>
+        <li>Node</li>
+        <li>Express</li>
+        <li>MySQL, Sequelize</li>
+        <li>MongoDB, Mongoose</li>
+        <li>REST</li>
+        <li>GraphQL</li>
+      </ul>
     </div>
   );
 }
