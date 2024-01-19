@@ -24,9 +24,12 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+
+
 main {
   max-width: 1200px;
   margin: 40px auto;
+  flex-grow: 1;
 }
 
 p {
@@ -38,7 +41,7 @@ h1 {
   line-height: 1.1;
 }
 
-/* navbar */
+/* header navbar */
 
 header nav {
   display: flex;
@@ -74,6 +77,28 @@ button {
   color: var(--secondary);
   background: var(--alternate);
   cursor: pointer;
+}
+
+/* Footer */
+
+.root-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: end;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: auto;
 }
 
 /* About Me */
