@@ -79,39 +79,6 @@ button {
   cursor: pointer;
 }
 
-/* Footer */
-
-.root-layout {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-footer {
-  margin-top: auto;
-}
-
-footer nav {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: end;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: auto;
-}
-
-/* About Me */
-
-.about h2 {
-  margin-bottom: 30px;
-}
-
-.first-p {
-  margin-top: 30px;
-}
-
-
 /* Contact form styling */
 
 form {
@@ -139,3 +106,45 @@ form textarea {
 form label span {
   margin-bottom: 10px;
 }
+
+/* Portfolio */
+.Projects button {
+  margin: 10px 10px;
+}
+
+
+/* About Me */
+
+.about h2 {
+  margin-bottom: 30px;
+}
+
+.first-p {
+  margin-top: 40px;
+}
+
+/* Footer */
+
+.root-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer nav {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: end;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: auto;
+}
+
+
+
+
