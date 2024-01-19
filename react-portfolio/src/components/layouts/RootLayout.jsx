@@ -21,6 +21,7 @@ export default function RootLayout() {
         <Outlet />
       </main>
 
+{/*   icon links to the developer’s GitHub and LinkedIn profiles, and to 3rd platform (Stack Overflow, Twitter) */}
       <footer>
         <nav></nav>
       </footer>
