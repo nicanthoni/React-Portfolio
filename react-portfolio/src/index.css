@@ -1,12 +1,11 @@
 :root {
-  --primary: #E4EBF2;
+  --primary: #e4ebf2;
   --secondary: #242526;
   --alternate: #ecf0f3;
 
   line-height: 1.5;
   font-weight: 400;
 
- 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
@@ -21,7 +20,8 @@ body {
   margin: 0;
   padding: 20px;
   background: var(--secondary);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 main {
@@ -71,27 +71,41 @@ button {
   cursor: pointer;
 }
 
+/* About Me */
+
+.about h2 {
+  margin-bottom: 30px;
+}
+
+.first-p {
+  margin-top: 30px;
+}
+
+
 /* Contact form styling */
 
 form {
   margin-top: 30px;
 }
 
-form input, form label span, form textarea {
+form input,
+form label span,
+form textarea {
   display: block;
+  margin: auto;
+  
 }
 
-form input, form textarea {
+form input,
+form textarea {
   margin-bottom: 30px;
-  padding: 8px;
+  padding: 10px;
   border-radius: 4px;
   border: 0;
-  width: 300px;
+  width: 380px;
   color: var(--secondary);
 }
 
 form label span {
   margin-bottom: 10px;
 }
-
-
