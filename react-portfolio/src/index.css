@@ -18,6 +18,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  color: var(--primary);
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 20px;
@@ -28,9 +33,9 @@ body {
   background: var(--secondary);
 }
 
-* {
-  color: var(--primary);
-  margin: 0;
+main {
+  max-width: 1200px;
+  margin: 40px auto;
 }
 
 p {
