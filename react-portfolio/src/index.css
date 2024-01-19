@@ -42,16 +42,29 @@ p {
   margin: 20px 0;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: var(--alternate);
+header nav {
+  display: flex;
+  gap: 14px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
 
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: var(--primary);
+  color: var(--secondary);
+}
 
 h1 {
   font-size: 3.2em;
@@ -67,13 +80,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: var(--alternate);
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 @media (prefers-color-scheme: light) {
   :root {

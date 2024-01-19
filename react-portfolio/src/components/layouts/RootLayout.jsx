@@ -1,6 +1,8 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-// Root layout = every 'page' should render with this layout, through 'Outlet'
+// Contains Header + Footer components
+// Root layout = every 'page' should render with this layout via Outlet
+
 
 export default function RootLayout() {
   return (
@@ -8,7 +10,6 @@ export default function RootLayout() {
       <header>
         <nav>
           <h1>Nic D.</h1>
-          <NavLink to="/">Home</NavLink>
           <NavLink to="About">About</NavLink>
           <NavLink to="Contact">Contact</NavLink>
           <NavLink to="Portfolio">Portfolio</NavLink>
@@ -19,6 +20,10 @@ export default function RootLayout() {
       <main>
         <Outlet />
       </main>
+
+      <footer>
+        <nav></nav>
+      </footer>
     </div>
   );
 }

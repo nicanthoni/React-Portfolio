@@ -1,14 +1,12 @@
 export default function About() {
-    return (
-        <div className="about">
-          <h2>About Me</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            laudantium minus aliquam fugit esse corporis! Nemo facilis vel,
-            accusamus, magni aliquid quam esse sequi nostrum excepturi quidem
-            asperiores delectus libero.
-          </p>
-        </div>
-      );
-    
+  return (
+    <div className="about">
+      <h2>About Me</h2>
+      <p>WHEN I am presented with the About Me section</p>
+      <p>
+        THEN I see a recent photo or avatar of the developer and a short bio
+        about them
+      </p>
+    </div>
+  );
 }

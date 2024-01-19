@@ -10,7 +10,6 @@ import {
 } from "react-router-dom";
 
 // pages
-import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Portfolio from "./components/pages/Portfolio";
@@ -22,7 +21,7 @@ import RootLayout from "./components/layouts/RootLayout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout/>}>
-      <Route index element={<Home />} />
+      <Route index element={<About />} />
       <Route path="About" element={<About />} />
       <Route path="Contact" element={<Contact />} />
       <Route path="Portfolio" element={<Portfolio />} />
