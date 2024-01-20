@@ -29,9 +29,7 @@ export default function ResumeComponent() {
             <li>Javascript</li>
             <li>JQuery</li>
             <li>React</li>
-            <li>Bootstrap</li>
-            <li>Tailwind</li>
-            <li>Responsive Design</li>
+            <li>Bootstrap, Tailwind</li>
           </ul>
         </div>
 
