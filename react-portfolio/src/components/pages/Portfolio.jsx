@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     application: "https://constellation-application-b32a4fee0e20.herokuapp.com/",
     github: "https://github.com/ZekuzaKeane/andromeda",
-    backgroundimage: `"url('./assets/placeholder-projects.jpg')"`,
+    backgroundimage: "url('../../assets/placeholder-projects.jpg')",
     title: "Constellation",
   },
   {

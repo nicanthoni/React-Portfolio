@@ -186,7 +186,7 @@ svg.header-icon {
   width: 290px;
   height: 220px;
   color: var(--secondary);
-  font-size: larger;
+  font-size: x-large;
   margin: 60px 50px;
   flex-basis: calc(50% - 8px); /* Adjust as needed, minus any margin/padding */
   margin-bottom: 10px; /* Adjust as needed */
