@@ -1,9 +1,8 @@
-import { NavLink, Outlet, Link } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 // React-icons
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-
 
 // Contains Header + Footer components
 // Root layout = every 'page' should render with this layout via Outlet
@@ -28,25 +27,27 @@ export default function RootLayout() {
       <footer>
         <nav>
           <div className="icons">
-            <a href="https://github.com/nicanthoni?tab=repositories" target="_blank">
+            <a
+              href="https://github.com/nicanthoni?tab=repositories"
+              target="_blank"
+            >
               <FaGithub />
             </a>
           </div>
 
           <div className="icons">
             <a href="https://www.linkedin.com/in/nicolasd13/" target="_blank">
-            <FaLinkedin />
+              <FaLinkedin />
             </a>
           </div>
-          
+
           <div className="icons">
-          <a href="https://www.instagram.com/nicanthoni/" target="_blank">
-          <FaInstagram />
-          </a>
+            <a href="https://www.instagram.com/nicanthoni/" target="_blank">
+              <FaInstagram />
+            </a>
           </div>
         </nav>
       </footer>
-
     </div>
   );
 }
