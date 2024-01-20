@@ -1,5 +1,5 @@
 import React from "react"; // Don't forget to import React
-import { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
 // A single Project component that will be used multiple times in the Portfolio section
 
@@ -24,6 +24,7 @@ export default function Project({
   return (
     <div className="Projects">
       <button className="project-btn" style={buttonStyle} key={id}>
+        <FaGithub className="gh-icon-project"/>
         {title}
       </button>
   
