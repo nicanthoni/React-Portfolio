@@ -31,19 +31,22 @@ export default function RootLayout() {
               href="https://github.com/nicanthoni?tab=repositories"
               target="_blank"
             >
-              <FaGithub />
+              <FaGithub 
+              className="footer-icon"/>
             </a>
           </div>
 
           <div className="icons">
             <a href="https://www.linkedin.com/in/nicolasd13/" target="_blank">
-              <FaLinkedin />
+              <FaLinkedin 
+              className="footer-icon"/>
             </a>
           </div>
 
           <div className="icons">
             <a href="https://www.instagram.com/nicanthoni/" target="_blank">
-              <FaInstagram />
+              <FaInstagram 
+              className="footer-icon"/>
             </a>
           </div>
         </nav>

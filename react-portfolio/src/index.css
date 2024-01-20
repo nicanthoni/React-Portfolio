@@ -62,7 +62,7 @@ header nav {
 
 header nav h1 {
   margin-right: auto;
-  border-bottom: 1px solid var(--primary);
+  /* border-bottom: 1px solid var(--primary); */
 }
 
 header nav a {
@@ -138,17 +138,19 @@ form label span {
 
 /* icons */
 
-svg.submit-icon {
+svg.submit-icon,
+svg.download-icon {
   background-color: var(--secondary);
   height: 38px;
   width: 40px;
   border-radius: 2.5px;
 }
 
-svg.download-icon {
+
+svg.footer-icon {
   background-color: var(--secondary);
-  height: 38px;
-  width: 40px;
+  height: 26px;
+  width: 28px;
   border-radius: 2.5px;
 }
 
