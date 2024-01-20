@@ -28,7 +28,7 @@ body {
 
 main {
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 50px auto;
   flex-grow: 1;
 }
 
@@ -58,7 +58,7 @@ header nav {
   align-items: end;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   
 }
 
