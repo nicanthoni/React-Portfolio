@@ -2,7 +2,6 @@
 import Avatar from "avataaars";
 import { BsRocketTakeoff } from "react-icons/bs";
 
-
 export default function About() {
   return (
     <div className="about">
@@ -23,9 +22,9 @@ export default function About() {
         skinColor="Light"
       />
       <p className="first-p">
-        My name is Nic, and I'm a 29 year old aspiring FullStack Web Developer.
-        I earned my Bachelor's degree at the University of Central Florida where
-        I studied business marketing.
+        My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
+        my Bachelor's degree at the University of Central Florida where I
+        studied business marketing.
       </p>
 
       <p>
@@ -40,8 +39,10 @@ export default function About() {
 
       <p>
         Now, over a year later with countless projects and more experience under
-        my belt, I'm ready to begin my journey as a fulltime developer. Happy
-        coding! <BsRocketTakeoff/>
+        my belt, I'm ready to begin my journey as a fulltime developer.
+      </p>
+      <p>
+        Happy coding! <BsRocketTakeoff />
       </p>
     </div>
   );

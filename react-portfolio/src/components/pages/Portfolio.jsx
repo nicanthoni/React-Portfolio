@@ -12,38 +12,38 @@ const projects = [
   },
   {
     id: 2,
-    application: "",
-    github: "",
-    backgroundimage: "",
-    title: "",
+    application: "https://crockevin.github.io/Game-Hub/",
+    github: "https://github.com/crockevin/Game-Hub",
+    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    title: "GameHub",
   },
   {
     id: 3,
-    application: "",
-    github: "",
-    backgroundimage: "",
-    title: "",
+    application: "https://nicanthoni.github.io/project-work-day-scheduler/",
+    github: "https://github.com/nicanthoni/project-work-day-scheduler",
+    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    title: "Workday Scheduler",
   },
   {
     id: 4,
-    application: "",
-    github: "",
-    backgroundimage: "",
-    title: "",
+    application: "https://nicanthoni.github.io/project-weather-dashboard/",
+    github: "https://github.com/nicanthoni/project-weather-dashboard",
+    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    title: "Weather Dash",
   },
   {
     id: 5,
     application: "",
-    github: "",
-    backgroundimage: "",
-    title: "",
+    github: "https://github.com/nicanthoni?tab=repositories",
+    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    title: "Future App",
   },
   {
     id: 6,
     application: "",
-    github: "",
-    backgroundimage: "",
-    title: "",
+    github: "https://github.com/nicanthoni?tab=repositories",
+    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    title: "Future App",
   },
 ];
 
@@ -51,16 +51,18 @@ export default function Portfolio() {
   return (
     <div className="portfolio">
       <h2>Portfolio</h2>
-      {projects.map((project) => (
-        <Project
-          key={project.id}
-          application={project.application}
-          id={project.id}
-          backgroundimage={project.backgroundimage}
-          title={project.title}
-          github={project.github}
-        />
-      ))}
+      <div className="project-container">
+        {projects.map((project) => (
+          <Project
+            key={project.id}
+            application={project.application}
+            id={project.id}
+            backgroundimage={project.backgroundimage}
+            title={project.title}
+            github={project.github}
+          />
+        ))}
+      </div>
     </div>
   );
 }

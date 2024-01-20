@@ -160,10 +160,20 @@ svg.header-icon {
 
 /* Portfolio + Projects */
 
-.Projects button {
-  margin: 10px 10px;
-  padding: 50px;
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.project-btn {
+  width: 290px;
+  height: 220px;
   color: var(--secondary);
+  margin: 60px 50px;
+  flex-basis: calc(50% - 8px); /* Adjust as needed, minus any margin/padding */
+  margin-bottom: 10px; /* Adjust as needed */
 }
 
 /* .proj1 {
