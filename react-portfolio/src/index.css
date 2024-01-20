@@ -154,6 +154,13 @@ svg.footer-icon {
   border-radius: 2.5px;
 }
 
+svg.header-icon {
+  height: 22px;
+  width: 28px;
+  border-radius: 2.5px;
+  margin-left: 1px;
+}
+
 /* Portfolio + Projects */
 
 .Projects button {
