@@ -39,6 +39,11 @@ h1 {
   line-height: 1.2;
 }
 
+h2 {
+  font-size: 1.8em;
+  line-height: 1.2;
+}
+
 /* header navbar */
 
 header nav {
