@@ -24,8 +24,6 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-
 main {
   max-width: 1200px;
   margin: 40px auto;
@@ -69,7 +67,6 @@ header nav a.active {
   color: var(--secondary);
 }
 
-
 button {
   border-radius: 4px;
   border: 0;
@@ -90,7 +87,6 @@ form label span,
 form textarea {
   display: block;
   margin: auto;
-  
 }
 
 form input,
@@ -107,7 +103,6 @@ form label span {
   margin-bottom: 10px;
 }
 
-
 /* Portfolio + Projects */
 .Projects button {
   margin: 10px 10px;
@@ -119,8 +114,6 @@ form label span {
 background-image: url('./assets/placeholder-projects.jpg');
 background-size: 110%; To fill the dimensions of container button
 } */
-
-
 
 /* About Me */
 .about h2 {
@@ -137,12 +130,11 @@ background-size: 110%; To fill the dimensions of container button
   border-radius: 4px;
   border: 0;
   padding: 12px;
-  margin: 30px 0px 10px 0px;
+  margin: 30px 0px 0px 0px;
   color: var(--secondary);
   background: var(--alternate);
   cursor: pointer;
 }
-
 
 .resume h3 {
   margin: 25px;
@@ -156,10 +148,19 @@ background-size: 110%; To fill the dimensions of container button
 }
 
 .resume {
- 
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+
+.proficiencies-container {
+  display: flex;
+}
+
+.proficiencies-section {
+  display: inline-block;
+  margin: 20px 20px;
 }
 
 /* Footer */
@@ -183,7 +184,3 @@ footer nav {
   margin: 0 auto;
   margin-top: auto;
 }
-
-
-
-
