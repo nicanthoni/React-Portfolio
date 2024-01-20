@@ -103,6 +103,7 @@ form textarea {
   border: 0;
   width: 380px;
   color: var(--secondary);
+  background-color: var(--primary);
 }
 
 form label span {

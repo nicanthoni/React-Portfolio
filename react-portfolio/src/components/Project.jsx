@@ -16,6 +16,7 @@ export default function Project({
     backgroundImage: backgroundimage,
     backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundColor: '#e4ebf2'
     //backgroundRepeat: 
     // Add styles (e.g., backgroundSize, backgroundPosition, etc.)
   };
