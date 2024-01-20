@@ -1,3 +1,6 @@
+
+import { RiMailSendFill } from "react-icons/ri";
+
 export default function Contact() {
   return (
     <div className="contact">
@@ -15,7 +18,12 @@ export default function Contact() {
           <span>Message:</span>
           <textarea type="text" name="message" required></textarea>
         </label>
-        <button className="submit-btn">Submit</button>
+        <button className="submit-btn">
+          <RiMailSendFill 
+           className="submit-icon"
+          //  onClick={handleExit}
+          />
+        </button>
       </form>
     </div>
   );

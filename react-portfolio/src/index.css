@@ -112,11 +112,52 @@ form label span {
   margin-bottom: 10px;
 }
 
+/* btns */
+
+.submit-btn {
+  padding: 0px;
+  background-color: var(--secondary);
+  border-radius: 2.5px;
+}
+
+/* .submit-btn:hover {
+  padding: 0px;
+  background-color: var(--secondary);
+  border-radius: 2.5px;
+  
+} */
+
+
+.download-btn {
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
+  color: var(--secondary);
+  background: var(--alternate);
+  cursor: pointer;
+}
+
+/* icons */
+
+svg.submit-icon {
+  background-color: var(--secondary);
+  height: 38px;
+  width: 40px;
+  border-radius: 2.5px;
+}
+
+svg.download-icon {
+  background-color: var(--secondary);
+  height: 38px;
+  width: 40px;
+  border-radius: 2.5px;
+}
+
 /* Portfolio + Projects */
+
 .Projects button {
   margin: 10px 10px;
   padding: 50px;
-  background-size: 110%; /* To fill the dimensions of container button */
+  background-size: 110%; 
 }
 
 /* .proj1 {
@@ -125,6 +166,7 @@ background-size: 110%; To fill the dimensions of container button
 } */
 
 /* About Me */
+
 .about h2 {
   margin-bottom: 30px;
 }
@@ -135,15 +177,7 @@ background-size: 110%; To fill the dimensions of container button
 
 /* Resume styling */
 
-.download-btn {
-  border-radius: 4px;
-  border: 0;
-  padding: 12px;
-  margin: 30px 0px 0px 0px;
-  color: var(--secondary);
-  background: var(--alternate);
-  cursor: pointer;
-}
+
 
 .resume h3 {
   margin: 25px;

@@ -1,4 +1,5 @@
 import Resume from "../../assets/Resume.pdf";
+import { MdFileDownload } from "react-icons/md";
 
 export default function ResumeComponent() {
   const handleDownload = () => {
@@ -13,7 +14,9 @@ export default function ResumeComponent() {
       <div className="header-btn-container">
         <h2>Resume</h2>
         <button className="download-btn" onClick={handleDownload}>
-          Download Resume
+          <MdFileDownload 
+          className="download-icon"
+          />
         </button>
       </div>
 
