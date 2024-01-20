@@ -12,9 +12,9 @@
 }
 
 * {
-  color: var(--primary);
   margin: 0;
 }
+
 
 body {
   margin: 0;
@@ -24,6 +24,8 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight:350;
     line-height: 1.8;
+
+    color: var(--primary);
 }
 
 main {
@@ -58,9 +60,11 @@ header nav {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 45px;
+  
 }
 
 header nav h1 {
+  color: var(--primary);
   margin-right: auto;
   /* border-bottom: 1px solid var(--primary); */
 }
@@ -69,6 +73,7 @@ header nav a {
   text-decoration: none;
   padding: 6px;
   border-radius: 4px;
+  color: var(--primary);
 }
 
 header nav a.active {
@@ -142,12 +147,14 @@ svg.download-icon {
   height: 38px;
   width: 40px;
   border-radius: 2.5px;
+  color: var(--primary);
 }
 
 svg.gh-icon-project {
   background-color: var(--secondary);
   border-radius: 10px;
   margin-right: 2px;
+  color: var(--primary);
 }
 
 
@@ -156,6 +163,7 @@ svg.footer-icon {
   height: 26px;
   width: 28px;
   border-radius: 2.5px;
+  color: var(--primary);
 }
 
 svg.header-icon {
@@ -182,13 +190,12 @@ svg.header-icon {
   margin: 60px 50px;
   flex-basis: calc(50% - 8px); /* Adjust as needed, minus any margin/padding */
   margin-bottom: 10px; /* Adjust as needed */
-
 }
 
-/* .proj1 {
-background-image: url('./assets/placeholder-projects.jpg');
-background-size: 110%; To fill the dimensions of container button
-} */
+.project-btn a {
+  text-decoration: none;
+  color: var(--secondary);
+}
 
 /* About Me */
 

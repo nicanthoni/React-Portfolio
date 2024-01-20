@@ -9,25 +9,26 @@ export default function Project({
   backgroundimage,
   title,
   github,
-}) 
-
-{
+}) {
   const buttonStyle = {
     backgroundImage: backgroundimage,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundColor: '#e4ebf2'
-    //backgroundRepeat: 
+    backgroundColor: "#e4ebf2",
+    //backgroundRepeat:
     // Add styles (e.g., backgroundSize, backgroundPosition, etc.)
   };
 
   return (
     <div className="Projects">
       <button className="project-btn" style={buttonStyle} key={id}>
-        <FaGithub className="gh-icon-project"/>
-        {title}
+        <a href={github} target="_blank">
+          <FaGithub className="gh-icon-project" />
+        </a>
+        <a href={application} target="_blank">
+          {title}
+        </a>
       </button>
-  
     </div>
   );
 }
