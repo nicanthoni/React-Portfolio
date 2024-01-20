@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     application: "https://crockevin.github.io/Game-Hub/",
     github: "https://github.com/crockevin/Game-Hub",
-    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../../assets/gamehub-background.jpg')",
     title: "GameHub",
   },
   {
