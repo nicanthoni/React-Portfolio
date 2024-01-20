@@ -23,7 +23,7 @@ export default function About() {
       />
       <p className="first-p">
         My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
-        my Bachelor's degree at the University of Central Florida where I
+        my bachelor's degree at the University of Central Florida where I
         studied business marketing.
       </p>
 
@@ -33,12 +33,11 @@ export default function About() {
         I speak with is either a developer themself, or an exectuive at their
         organization. After having many in depth conversations with different
         teams surrounding their tech stack and ways to optimize their build
-        processes on our platform, I quickly found how interesting and exciting
-        this whole tech world to be.
+        processes on our platform, I was hooked.
       </p>
 
       <p>
-        Now, over a year later with countless projects and more experience under
+        Over a year later, with more projects and experience under
         my belt, I'm ready to begin my journey as a fulltime developer.
       </p>
       <p>
