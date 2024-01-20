@@ -15,7 +15,7 @@ export default function Contact() {
           <span>Message:</span>
           <textarea type="text" name="message" required></textarea>
         </label>
-        <button>Submit</button>
+        <button className="submit-btn">Submit</button>
       </form>
     </div>
   );
