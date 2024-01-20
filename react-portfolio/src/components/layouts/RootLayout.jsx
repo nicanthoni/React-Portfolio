@@ -1,5 +1,8 @@
 import { NavLink, Outlet, Link } from "react-router-dom";
-// import { faGithub } from "font-awesome";
+// React-icons
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 
 // Contains Header + Footer components
@@ -22,21 +25,28 @@ export default function RootLayout() {
         <Outlet />
       </main>
 
-      {/*   icon links to the developer’s GitHub and LinkedIn profiles, and to 3rd platform (Stack Overflow, Twitter) */}
       <footer>
         <nav>
-          {/* <FontAwesomeIcon icon={faGithub} /> */}
-          <NavLink to="https://github.com/nicanthoni" target="_blank">
-            GitHub
-          </NavLink>
-          <NavLink to="https://www.linkedin.com/in/nicolasd13/" target="_blank">
-            LinkedIn
-          </NavLink>
-          <NavLink to="https://www.instagram.com/nicanthoni/" target="_blank">
-            Instagram
-          </NavLink>
+          <div className="icons">
+            <a href="https://github.com/nicanthoni?tab=repositories" target="_blank">
+              <FaGithub />
+            </a>
+          </div>
+
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/nicolasd13/" target="_blank">
+            <FaLinkedin />
+            </a>
+          </div>
+          
+          <div className="icons">
+          <a href="https://www.instagram.com/nicanthoni/" target="_blank">
+          <FaInstagram />
+          </a>
+          </div>
         </nav>
       </footer>
+
     </div>
   );
 }

@@ -1,5 +1,7 @@
 // npm package to import my avatar
 import Avatar from "avataaars";
+import { BsRocketTakeoff } from "react-icons/bs";
+
 
 export default function About() {
   return (
@@ -39,7 +41,7 @@ export default function About() {
       <p>
         Now, over a year later with countless projects and more experience under
         my belt, I'm ready to begin my journey as a fulltime developer. Happy
-        coding!
+        coding! <BsRocketTakeoff/>
       </p>
     </div>
   );
