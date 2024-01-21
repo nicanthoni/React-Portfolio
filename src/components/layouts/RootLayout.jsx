@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+
 // React-icons
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
