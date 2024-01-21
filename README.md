@@ -1,8 +1,21 @@
-# React + Vite
+# React-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Motivation
+- Using React to create a personal, professional, portfolio website. This application allows the viewer to learn a little about myself, view both my resume and project portfolio, as well as contact me via email.  
+## Screenshots
 
-Currently, two official plugins are available:
+![ScreenShot]()
+![ScreenShot]()
+![ScreenShot]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech/framework used
+- React, Vite, JSX, Javascript, HTML, CSS.
+
+## Deployed application link
+- Deplyed application: 
+
+## Usage
+- If potential employers are interested in discussing any oppurtunities, they may use the contact me section to contact me via email,  or through the applications shown in the footer. If fellow creators would like to colaborate on future projects, I may be contacted in the same forms.
+
+## License
+MIT © [nicanthoni]()
