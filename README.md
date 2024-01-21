@@ -12,7 +12,7 @@
 - React, Vite, JSX, Javascript, HTML, CSS.
 
 ## Deployed application link
-- Deplyed application: 
+- Deplyed application: https://nicdiaz-portfolio.netlify.app/About
 
 ## Usage
 - If potential employers are interested in discussing any oppurtunities, they may use the contact me section to contact me via email,  or through the applications shown in the footer. If fellow creators would like to colaborate on future projects, I may be contacted in the same forms.
