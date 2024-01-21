@@ -4,9 +4,10 @@
 - Using React to create a personal, professional, portfolio website. This application allows the viewer to learn a little about myself, view both my resume and project portfolio, as well as contact me via email.  
 ## Screenshots
 
-![ScreenShot]()
-![ScreenShot]()
-![ScreenShot]()
+![ScreenShot](/src/assets/screenshots/ss-about.png)
+![ScreenShot](./src/assets/screenshots/ss-contact.png)
+![ScreenShot](./src/assets/screenshots/ss-portfolio.png)
+![ScreenShot](./src/assets/screenshots/ss-resume.png)
 
 ## Tech/framework used
 - React, Vite, JSX, Javascript, HTML, CSS.
