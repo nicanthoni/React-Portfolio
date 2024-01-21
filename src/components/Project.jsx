@@ -1,8 +1,7 @@
-import React from "react"; // Don't forget to import React
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 
-// A single Project component that will be used multiple times in the Portfolio section
-
+// Single Project component to be used multiple times in Portfolio page
 export default function Project({
   application,
   id,
@@ -14,7 +13,7 @@ export default function Project({
     backgroundImage: backgroundimage,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundColor: "#e4ebf2",
+    // backgroundColor: "#e4ebf2",
     //backgroundRepeat:
     // Add styles (e.g., backgroundSize, backgroundPosition, etc.)
   };

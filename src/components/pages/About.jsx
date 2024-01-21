@@ -1,5 +1,5 @@
 // npm package to import my avatar
-import Avatar from "avataaars";
+// import Avatar from "avataaars";
 import { BsRocketTakeoff } from "react-icons/bs";
 
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
     <div className="about">
       <h2>About Me</h2>
 
-      <Avatar
+      {/* <Avatar
         avatarStyle="Transparent"
         topType="ShortHairShortCurly"
         accessoriesType="Round"
@@ -20,7 +20,7 @@ export default function About() {
         eyebrowType="Default"
         mouthType="Smile"
         skinColor="Light"
-      />
+      /> */}
       <p className="first-p">
         My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
         my bachelor's degree at the University of Central Florida where I

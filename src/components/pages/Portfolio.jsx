@@ -1,48 +1,48 @@
 import Project from "../Project";
 
-// 6 apps with links to both the deployed applications & the corresponding GitHub repository
-
+// Project data
 const projects = [
   {
     id: 1,
-    application: "https://constellation-application-b32a4fee0e20.herokuapp.com/",
+    application:
+      "https://constellation-application-b32a4fee0e20.herokuapp.com/",
     github: "https://github.com/ZekuzaKeane/andromeda",
-    backgroundimage: "url('../../assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
     title: "Constellation",
   },
   {
     id: 2,
     application: "https://crockevin.github.io/Game-Hub/",
     github: "https://github.com/crockevin/Game-Hub",
-    backgroundimage: "url('../../assets/gamehub-background.jpg')",
+    backgroundimage: "url('../src/assets/gamehub-background.jpg')",
     title: "GameHub",
   },
   {
     id: 3,
     application: "https://nicanthoni.github.io/project-work-day-scheduler/",
     github: "https://github.com/nicanthoni/project-work-day-scheduler",
-    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
     title: "Workday Scheduler",
   },
   {
     id: 4,
     application: "https://nicanthoni.github.io/project-weather-dashboard/",
     github: "https://github.com/nicanthoni/project-weather-dashboard",
-    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
     title: "Weather Dash",
   },
   {
     id: 5,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
     title: "Future App",
   },
   {
     id: 6,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('./assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
     title: "Future App",
   },
 ];
