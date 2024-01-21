@@ -7,7 +7,7 @@ const projects = [
     application:
       "https://constellation-application-b32a4fee0e20.herokuapp.com/",
     github: "https://github.com/ZekuzaKeane/andromeda",
-    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/constellation.jpg')",
     title: "Constellation",
   },
   {
@@ -21,29 +21,29 @@ const projects = [
     id: 3,
     application: "https://nicanthoni.github.io/project-work-day-scheduler/",
     github: "https://github.com/nicanthoni/project-work-day-scheduler",
-    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/workdayScheduler.jpg')",
     title: "Workday Scheduler",
   },
   {
     id: 4,
     application: "https://nicanthoni.github.io/project-weather-dashboard/",
     github: "https://github.com/nicanthoni/project-weather-dashboard",
-    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
+    backgroundimage: "url('../src/assets/weather.jpg')",
     title: "Weather Dash",
   },
   {
     id: 5,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
-    title: "Future App",
+    backgroundimage: "url('../src/assets/no-project.jpg')",
+    title: "TBD",
   },
   {
     id: 6,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('../src/assets/placeholder-projects.jpg')",
-    title: "Future App",
+    backgroundimage: "url('../src/assets/no-project.jpg')",
+    title: "TBD",
   },
 ];
 

@@ -21,12 +21,14 @@ export default function Project({
   return (
     <div className="Projects">
       <button className="project-btn" style={buttonStyle} key={id}>
-        <a href={github} target="_blank">
-          <FaGithub className="gh-icon-project" />
-        </a>
-        <a href={application} target="_blank">
-          {title}
-        </a>
+        <div className="project-btn-container">
+          <a href={github} target="_blank">
+            <FaGithub className="gh-icon-project" />
+          </a>
+          <a href={application} target="_blank">
+            {title}
+          </a>
+        </div>
       </button>
     </div>
   );

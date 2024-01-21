@@ -185,11 +185,25 @@ svg.header-icon {
   margin: 60px 50px;
   flex-basis: calc(50% - 8px); /* Adjust as needed, minus any margin/padding */
   margin-bottom: 10px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-btn a {
   text-decoration: none;
-  color: var(--secondary);
+  margin: 6px;
+  color: var(--primary);
+}
+
+.project-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: var(--secondary);
+  width: fit-content;
 }
 
 /* About Me */
