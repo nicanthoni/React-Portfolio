@@ -22,13 +22,13 @@ export default function About() {
         mouthType="Smile"
         skinColor="Light"
       />
-      <p className="first-p">
+      <p className="first-p about-paragraph">
         My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
         my bachelor's degree at the University of Central Florida where I
         studied business marketing.
       </p>
 
-      <p>
+      <p className="about-paragraph">
         I found my love for development whenever I began working as a Technical
         Sucess Manager at a CI/CD company. As you could imagine, every customer
         I speak with is either a developer themself, or an exectuive at their
@@ -37,11 +37,11 @@ export default function About() {
         processes on our platform, I was hooked.
       </p>
 
-      <p>
+      <p className="about-paragraph">
         Over a year later, with more projects and experience under
         my belt, I'm ready to begin my journey as a fulltime developer.
       </p>
-      <p>
+      <p className="about-paragraph">
         Happy coding! <BsRocketTakeoff />
       </p>
     </div>

@@ -4,7 +4,7 @@
   --alternate: #ecf0f3;
 
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +26,7 @@ body {
   background: var(--secondary);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 350;
+  font-weight: 300;
   line-height: 1.8;
   color: var(--primary);
 }
@@ -38,19 +38,19 @@ main {
 }
 
 p {
-  margin: 20px 0;
+  margin: 15px 10px;
 }
 
 h1 {
   font-size: 2.4em;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 310;
 }
 
 h2 {
   font-size: 1.8em;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 350;
 }
 
 /* header navbar */
@@ -64,7 +64,7 @@ header nav {
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 20px;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 header nav h1 {
@@ -78,7 +78,6 @@ header nav a {
   padding: 6px;
   border-radius: 4px;
   color: var(--primary);
-  height: 100%;
 }
 
 header nav a:hover{
@@ -99,20 +98,25 @@ header nav a:hover{
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: #242526d1;
+  background-color: #242526c8;
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px rgba(0,0,0,0.1);
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  
 }
+
 
 .sidebar a {
 width: 100%;
+font-size: larger;
 }
 
-
+.side-button:active {
+background-color: none;
+}
 
 
 button {
@@ -139,6 +143,7 @@ form input,
 form textarea {
   margin-bottom: 30px;
   padding: 10px;
+  border: none;
   border-radius: 4px;
   width: 400px;
   color: var(--secondary);
@@ -156,13 +161,6 @@ form label span {
   background-color: var(--secondary);
   border-radius: 2.5px;
 }
-
-/* .submit-btn:hover {
-  padding: 0px;
-  background-color: var(--secondary);
-  border-radius: 2.5px;
-  
-} */
 
 .download-btn {
   padding: 0px;
@@ -237,6 +235,7 @@ svg.footer-icon {
 
 /* About Me page */
 
+
 .about h2 {
   margin-bottom: 30px;
 }
@@ -250,7 +249,7 @@ svg.footer-icon {
 .resume h3 {
   margin: 25px;
   border-bottom: 1px solid var(--primary);
-  font-weight: 450;
+  font-weight: 330;
   line-height: 1.2;
 }
 
@@ -308,14 +307,19 @@ footer nav {
   .menu-button {
     display: block;
     fill: var(--primary);
+    padding: 0px;
   }
   .exit-button {
     fill: var(--primary);
-    margin-top: 15px;
+    margin-top: 20px;
+    margin: 25px 0px;
   }
 
   .main-nav.active {
     background: none;
+  }
+  p {
+    margin: 20px 16px;
   }
 }
 

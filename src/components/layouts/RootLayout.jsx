@@ -6,10 +6,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 // Contains Header + Footer components
-// Root layout = every 'page' should render with this layout via Outlet
+// Every 'page' will render with this layout through Outlet
 
 
-// Display sidebar on menu icon click
+// Display/hide sidebar on click
 function showSidebar () {
   const sidebar = document.querySelector('.sidebar')
   sidebar.style.display = 'flex'
@@ -20,14 +20,13 @@ function hideSidebar () {
 }
 
 
-
 export default function RootLayout() {
   return (
     <div className="root-layout">
       <header>
         <nav>
           <div className="sidebar">
-          <NavLink className="exit-button" onClick={() => hideSidebar()}to="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></NavLink>
+          <NavLink className="exit-button" onClick={() => hideSidebar()}to="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></NavLink>
           <NavLink className='side-button' to="About">About</NavLink>
           <NavLink className='side-button' to="Contact">Contact</NavLink>
           <NavLink className='side-button' to="Portfolio">Portfolio</NavLink>
@@ -39,7 +38,7 @@ export default function RootLayout() {
           <NavLink className='hideOnMobile main-nav' to="Contact">Contact</NavLink>
           <NavLink className='hideOnMobile main-nav' to="Portfolio">Portfolio</NavLink>
           <NavLink className='hideOnMobile main-nav' to="Resume">Resume</NavLink>
-          <NavLink className="menu-button main-nav" onClick={() => showSidebar()}to="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></NavLink>
+          <NavLink className="menu-button main-nav" onClick={() => showSidebar()}to="#"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></NavLink>
         </nav>
       </header>
 
