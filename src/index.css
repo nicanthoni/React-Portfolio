@@ -24,7 +24,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background: var(--secondary);
-    font-family: 'League Spartan', sans-serif; 
+  font-family: "League Spartan", sans-serif;
   font-weight: 350;
   line-height: 1.8;
   color: var(--primary);
@@ -63,7 +63,7 @@ header nav {
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 14px;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header nav h1 {
@@ -79,11 +79,11 @@ header nav a {
   color: var(--primary);
 }
 
-header nav a:hover{
-  background-color: rgba(0,0,0,0.1);
+header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
- .main-nav.active {
+.main-nav.active {
   background: var(--primary);
   color: var(--secondary);
 }
@@ -99,24 +99,21 @@ header nav a:hover{
   z-index: 999;
   background-color: #242526c8;
   backdrop-filter: blur(10px);
-  box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  
 }
 
-
 .sidebar a {
-width: 100%;
-font-size: larger;
+  width: 100%;
+  font-size: larger;
 }
 
 .side-button:active {
-background-color: none;
+  background-color: none;
 }
-
 
 button {
   border-radius: 5px;
@@ -234,7 +231,6 @@ svg.footer-icon {
 
 /* About Me page */
 
-
 .about h2 {
   margin-bottom: 30px;
 }
@@ -299,10 +295,10 @@ footer nav {
   display: none;
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
   .hideOnMobile {
     display: none;
-  } 
+  }
   .menu-button {
     display: block;
     fill: var(--primary);
@@ -322,8 +318,7 @@ footer nav {
   }
 }
 
-
-@media(max-width: 460px) {
+@media (max-width: 460px) {
   .sidebar {
     width: 100%;
   }
