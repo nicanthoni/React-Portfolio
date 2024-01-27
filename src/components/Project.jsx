@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 
-// Single Project component to be used multiple times in Portfolio page
+// Single Project component used multiple times in Portfolio page
 export default function Project({
   application,
   id,

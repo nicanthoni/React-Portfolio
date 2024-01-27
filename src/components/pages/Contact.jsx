@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <form>
+      <form className="contact-form">
         <label>
           <span>Your name:</span>
           <input type="name" name="name" onBlur={handleBlur} required />
