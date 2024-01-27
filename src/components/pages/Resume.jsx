@@ -1,4 +1,4 @@
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/NicDiazResume.pdf";
 import { MdFileDownload } from "react-icons/md";
 
 export default function ResumeComponent() {
