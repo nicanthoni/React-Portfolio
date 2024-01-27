@@ -24,22 +24,21 @@ export default function About() {
       />
       <p className="first-p about-paragraph">
         My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
-        my bachelor's degree at the University of Central Florida where I
+        my bachelor's degree at the University of Central Florida, where I
         studied business marketing.
       </p>
 
       <p className="about-paragraph">
-        I found my love for development whenever I began working as a Technical
-        Sucess Manager at a CI/CD company. As you could imagine, every customer
+        My interest for web development blossomed while working as a Technical
+        Sucess Manager at a CI/CD company. As is no surprise, each client
         I speak with is either a developer themself, or an exectuive at their
         organization. After having many in depth conversations with different
-        teams surrounding their tech stack and ways to optimize their build
-        processes on our platform, I was hooked.
+        teams on ways to optimize their build processes on our platform, I was hooked.
       </p>
 
       <p className="about-paragraph">
         Over a year later, with more projects and experience under
-        my belt, I'm ready to begin my journey as a fulltime developer.
+        my belt, I'm ready to begin my journey as a web developer.
       </p>
       <p className="about-paragraph">
         Happy coding! <BsRocketTakeoff />
