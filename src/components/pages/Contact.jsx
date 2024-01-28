@@ -28,6 +28,7 @@ export default function Contact() { // Alert if clicking off of an empty input f
         (result) => {
           console.log(result.text);
           e.target.reset(); // clear form after submit
+          alert("Message sent ✅");
         },
         (error) => {
           console.log(error.text);
