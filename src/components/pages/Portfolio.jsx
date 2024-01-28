@@ -7,42 +7,42 @@ const projects = [
     application:
       "https://constellation-application-b32a4fee0e20.herokuapp.com/",
     github: "https://github.com/ZekuzaKeane/andromeda",
-    backgroundimage: "url('../src/assets/constellation.jpg')",
+    image: "url('../images/constellation.jpg')",
     title: "Constellation",
   },
   {
     id: 2,
     application: "https://crockevin.github.io/Game-Hub/",
     github: "https://github.com/crockevin/Game-Hub",
-    backgroundimage: "url('../src/assets/gamehub-background.jpg')",
+    image: "url('../images/gamehub-background.jpg')",
     title: "GameHub",
   },
   {
     id: 3,
     application: "https://nicanthoni.github.io/project-work-day-scheduler/",
     github: "https://github.com/nicanthoni/project-work-day-scheduler",
-    backgroundimage: "url('../src/assets/workdayScheduler.jpg')",
+    image: "url('../images/workdayScheduler.jpg')",
     title: "Workday Scheduler",
   },
   {
     id: 4,
     application: "https://nicanthoni.github.io/project-weather-dashboard/",
     github: "https://github.com/nicanthoni/project-weather-dashboard",
-    backgroundimage: "url('../src/assets/weather.jpg')",
+    image: "url('../images//weather.jpg')",
     title: "Weather Dash",
   },
   {
     id: 5,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('../src/assets/no-project.jpg')",
+    image: "url('../images/no-project.jpg')",
     title: "TBD",
   },
   {
     id: 6,
     application: "",
     github: "https://github.com/nicanthoni?tab=repositories",
-    backgroundimage: "url('../src/assets/no-project.jpg')",
+    image: "url('../images/no-project.jpg')",
     title: "TBD",
   },
 ];
@@ -57,7 +57,7 @@ export default function Portfolio() {
             key={project.id}
             application={project.application}
             id={project.id}
-            backgroundimage={project.backgroundimage}
+            image={project.image}
             title={project.title}
             github={project.github}
           />

@@ -5,12 +5,12 @@ import { FaGithub } from "react-icons/fa";
 export default function Project({
   application,
   id,
-  backgroundimage,
+  image,
   title,
   github,
 }) {
   const buttonStyle = {
-    backgroundImage: backgroundimage,
+    backgroundImage: image,
     backgroundSize: "cover",
     backgroundPosition: "center",
     // Add styles (e.g., backgroundSize, backgroundPosition, backgroundRepeat, etc.)
@@ -28,6 +28,8 @@ export default function Project({
           </a>
         </div>
       </button>
+
+
     </div>
   );
 }
