@@ -8,7 +8,7 @@ export default function Contact() { // Alert if clicking off of an empty input f
     let type = event.target.getAttribute("name");
     console.log(type);
     if (event.target.value === "") {
-      alert("Empty fields are not allowed");
+      alert("All fields required to send message ⚠️");
     }
   };
 
