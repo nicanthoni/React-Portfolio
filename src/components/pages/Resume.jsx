@@ -1,11 +1,11 @@
-import Resume from "../../assets/NicDiazResume.pdf";
+import Resume from "../../assets/NicDiaz-Resume.pdf";
 import { MdFileDownload } from "react-icons/md";
 
 export default function ResumeComponent() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = Resume;
-    link.download = "NicDiazResume.pdf";
+    link.download = "NicDiaz-Resume.pdf";
     link.click();
   };
 
