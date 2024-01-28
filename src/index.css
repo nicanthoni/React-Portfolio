@@ -194,39 +194,36 @@ svg.footer-icon {
 
 /* Portfolio page + projects */
 
-.project-container {
+.project {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
-.project-btn {
+.project-img {
   width: 290px;
   height: 220px;
-  color: var(--secondary);
-  font-size: x-large;
+  border-radius: 5px;
   margin: 60px 50px;
   flex-basis: calc(50% - 8px); /* Adjust as needed, minus any margin/padding */
-  margin-bottom: 10px; /* Adjust as needed */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.project-btn a {
+.project-container a {
+  position: absolute;
   text-decoration: none;
-  margin: 6px;
+  background-color: var(--secondary);
+  border-radius: 5px;
   color: var(--primary);
+  font-size: x-large;
+  width: fit-content;
+  padding: 2px 10px;
 }
 
-.project-btn-container {
+.project-container {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: var(--secondary);
   width: fit-content;
+  flex-wrap: wrap;
 }
 
 /* About Me page */
