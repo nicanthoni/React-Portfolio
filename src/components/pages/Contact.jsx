@@ -1,6 +1,8 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { RiMailSendFill } from "react-icons/ri";
 
-export default function Contact() {
+export default function Contact() { // Alert if clicking off of an empty input field
   const handleBlur = (event) => {
     console.log(event.target);
     let type = event.target.getAttribute("name");
@@ -9,16 +11,40 @@ export default function Contact() {
       alert("Empty fields are not allowed");
     }
   };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5d1uzmj",
+        "template_5f44yck",
+        form.current,
+        "O2U3wxHSSiv-EdDFM"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset(); // clear form after submit
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <form className="contact-form">
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
         <label>
-          <span>Your name:</span>
+          <span>Name:</span>
           <input type="name" name="name" onBlur={handleBlur} required />
         </label>
         <label>
-          <span>Your email:</span>
+          <span>Email:</span>
           <input type="email" name="email" onBlur={handleBlur} required />
         </label>
         <label>
@@ -33,7 +59,6 @@ export default function Contact() {
         <button className="submit-btn">
           <RiMailSendFill
             className="submit-icon"
-            //  onClick={handleExit}
           />
         </button>
       </form>
