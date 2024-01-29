@@ -23,14 +23,14 @@ export default function About() {
         skinColor="Light"
       />
       <p className="first-p about-paragraph">
-        My name is Nic, and I'm an aspiring Full Stack Web Developer. I earned
+        My name is Nic, and I'm a Full Stack Web Developer. I earned
         my bachelor's degree at the University of Central Florida, where I
         studied business marketing.
       </p>
 
       <p className="about-paragraph">
         My interest for web development blossomed while working as a Technical
-        Sucess Manager at a CI/CD company. As is no surprise, each client
+        Success Manager at a CI/CD company. As is no surprise, each client
         I speak with is either a developer themself, or an exectuive at their
         organization. After having many in depth conversations with different
         teams on ways to optimize their build processes on our platform, I was hooked.
