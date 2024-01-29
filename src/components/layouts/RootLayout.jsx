@@ -20,6 +20,7 @@ function hideSidebar () {
 }
 
 
+
 export default function RootLayout() {
   return (
     <div className="root-layout">
@@ -27,10 +28,10 @@ export default function RootLayout() {
         <nav>
           <div className="sidebar">
           <NavLink className="exit-button" onClick={() => hideSidebar()}to="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></NavLink>
-          <NavLink className='side-button' to="About">About</NavLink>
-          <NavLink className='side-button' to="Contact">Contact</NavLink>
-          <NavLink className='side-button' to="Portfolio">Portfolio</NavLink>
-          <NavLink className='side-button' to="Resume">Resume</NavLink>
+          <NavLink className='side-button' onClick={() => hideSidebar()}to="About">About</NavLink>
+          <NavLink className='side-button' onClick={() => hideSidebar()}to="Contact">Contact</NavLink>
+          <NavLink className='side-button' onClick={() => hideSidebar()}to="Portfolio">Portfolio</NavLink>
+          <NavLink className='side-button' onClick={() => hideSidebar()}to="Resume">Resume</NavLink>
           </div>
           
           <h1 className="header-name">Nic Diaz</h1>

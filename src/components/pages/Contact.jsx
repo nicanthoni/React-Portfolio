@@ -2,7 +2,8 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { RiMailSendFill } from "react-icons/ri";
 
-export default function Contact() { // Alert if clicking off of an empty input field
+export default function Contact() {
+  // Alert if clicking off of an empty input field
   const handleBlur = (event) => {
     console.log(event.target);
     let type = event.target.getAttribute("name");
@@ -42,15 +43,28 @@ export default function Contact() { // Alert if clicking off of an empty input f
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <label>
           <span>Name:</span>
-          <input type="name" name="name" onBlur={handleBlur} required />
+          <input
+            className="form-input"
+            type="name"
+            name="name"
+            onBlur={handleBlur}
+            required
+          />
         </label>
         <label>
           <span>Email:</span>
-          <input type="email" name="email" onBlur={handleBlur} required />
+          <input
+            className="form-input"
+            type="email"
+            name="email"
+            onBlur={handleBlur}
+            required
+          />
         </label>
         <label>
           <span>Message:</span>
           <textarea
+            className="form-input"
             type="text"
             name="message"
             onBlur={handleBlur}
@@ -58,9 +72,7 @@ export default function Contact() { // Alert if clicking off of an empty input f
           ></textarea>
         </label>
         <button className="submit-btn">
-          <RiMailSendFill
-            className="submit-icon"
-          />
+          <RiMailSendFill className="submit-icon" />
         </button>
       </form>
     </div>

@@ -124,7 +124,7 @@ button {
 /* Contact form page */
 
 form {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 form input,
@@ -135,13 +135,12 @@ form textarea {
   max-width: 100%;
 }
 
-form input,
-form textarea {
+.form-input {
   margin-bottom: 30px;
   padding: 10px;
   border: none;
   border-radius: 5px;
-  width: 400px;
+  width: 450px;
   color: var(--secondary);
   background-color: var(--primary);
 }
@@ -176,7 +175,6 @@ svg.download-icon {
   border-radius: 2.5px;
   color: var(--primary);
 }
-
 
 /* not in use */
 svg.gh-icon-project {
@@ -315,6 +313,9 @@ footer nav {
     margin-top: 20px;
     margin: 25px 0px;
   }
+  .form-input {
+    max-width: 85%;  
+  }
 
   .main-nav.active {
     background: none;
@@ -325,7 +326,6 @@ footer nav {
   .project-container a {
     opacity: 1;
   }
-
 }
 
 @media (max-width: 460px) {
