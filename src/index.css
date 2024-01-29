@@ -278,6 +278,7 @@ svg.footer-icon {
 .root-layout {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
@@ -299,6 +300,8 @@ footer nav {
   display: none;
 }
 
+
+
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
@@ -314,7 +317,10 @@ footer nav {
     margin: 25px 0px;
   }
   .form-input {
-    max-width: 85%;  
+    max-width: 85%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
   }
 
   .main-nav.active {
