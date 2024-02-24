@@ -1,8 +1,9 @@
-import React from "react";
-import { FaGithub } from "react-icons/fa";
-
-// Single Project component used multiple times in Portfolio page
+// Project component used on Portfolio page
 // github icon linking to repo not currently in use
+import React from "react";
+import { FaGithub } from "react-icons/fa"; // GH Icon not in use
+
+
 export default function Project({ application, id, image, title, github }) {
   return (
     
